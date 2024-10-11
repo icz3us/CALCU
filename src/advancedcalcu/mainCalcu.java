@@ -18,7 +18,7 @@ public class mainCalcu extends javax.swing.JFrame {
     public mainCalcu() {
         initComponents();
     }
-    double num1,num2,result;
+    double num1,num2,num3,result;
     String opr;
     
 private BigInteger factorial(int value) {
@@ -311,7 +311,7 @@ private BigInteger factorial(int value) {
 
         jButton23.setBackground(new java.awt.Color(102, 102, 102));
         jButton23.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
-        jButton23.setText("+/-");
+        jButton23.setText("SET");
         jButton23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jButton24.setBackground(new java.awt.Color(102, 102, 102));
@@ -519,6 +519,11 @@ private BigInteger factorial(int value) {
         jButton45.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/summation.png"))); // NOI18N
         jButton45.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
 
         jButton46.setBackground(new java.awt.Color(204, 204, 204));
         jButton46.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
@@ -529,11 +534,21 @@ private BigInteger factorial(int value) {
         jButton47.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xyz.png"))); // NOI18N
         jButton47.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
 
         jButton48.setBackground(new java.awt.Color(204, 204, 204));
         jButton48.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xy.png"))); // NOI18N
         jButton48.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
 
         jButton49.setBackground(new java.awt.Color(204, 204, 204));
         jButton49.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
@@ -847,7 +862,10 @@ private BigInteger factorial(int value) {
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        // TODO add your handling code here:
+        num1 = Double.parseDouble(jTextField1.getText());
+        
+        jTextField1.setText("");
+        opr = "log2x";
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
@@ -972,7 +990,25 @@ private BigInteger factorial(int value) {
             result = num1 % num2;
             jTextField1.setText(Double.toString(result));
         }
-        
+        else if(opr == "x^y") {
+            for(int i=0; i<num2; i++){
+                result = num1 * num2;
+            }
+            jTextField1.setText(Double.toString(result));
+        }
+        else if(opr == "x^y^z") {
+        double tempResult = Math.pow(num2, num3);  
+        result = Math.pow(num1, tempResult);       
+        jTextField1.setText(Double.toString(result));
+        }
+        else if(opr == "log2x") {
+        double base = Double.parseDouble(jTextField1.getText());  
+        result = Math.log(num1) / Math.log(base);  
+        jTextField1.setText(Double.toString(result));
+        }
+
+
+            
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
@@ -1001,6 +1037,24 @@ private BigInteger factorial(int value) {
         }
     }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+        num1 = Double.parseDouble(jTextField1.getText());
+        
+        jTextField1.setText("");
+        opr = "x^y";
+    }//GEN-LAST:event_jButton48ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        num1 = Double.parseDouble(jTextField1.getText());
+        
+        jTextField1.setText("");
+        opr = "x^y^z";
+    }//GEN-LAST:event_jButton47ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton45ActionPerformed
 
     /**
      * @param args the command line arguments
