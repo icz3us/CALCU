@@ -102,7 +102,7 @@ private BigInteger factorial(int value) {
         jButton1.setBackground(new java.awt.Color(204, 0, 0));
         jButton1.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton1.setText("DEL");
-        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton1.setBorder(new javax.swing.border.MatteBorder(null));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -112,7 +112,7 @@ private BigInteger factorial(int value) {
         jButton2.setBackground(new java.awt.Color(102, 102, 102));
         jButton2.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton2.setText("+/-");
-        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton2.setBorder(new javax.swing.border.MatteBorder(null));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -122,7 +122,7 @@ private BigInteger factorial(int value) {
         jButton3.setBackground(new java.awt.Color(204, 0, 0));
         jButton3.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton3.setText("AC");
-        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton3.setBorder(new javax.swing.border.MatteBorder(null));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -132,7 +132,7 @@ private BigInteger factorial(int value) {
         jButton4.setBackground(new java.awt.Color(255, 153, 0));
         jButton4.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton4.setText("+");
-        jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton4.setBorder(new javax.swing.border.MatteBorder(null));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -142,7 +142,7 @@ private BigInteger factorial(int value) {
         jButton5.setBackground(new java.awt.Color(102, 102, 102));
         jButton5.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton5.setText("FLR");
-        jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton5.setBorder(new javax.swing.border.MatteBorder(null));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -152,7 +152,7 @@ private BigInteger factorial(int value) {
         jButton6.setBackground(new java.awt.Color(102, 102, 102));
         jButton6.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton6.setText("CEIL");
-        jButton6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton6.setBorder(new javax.swing.border.MatteBorder(null));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -162,7 +162,7 @@ private BigInteger factorial(int value) {
         jButton7.setBackground(new java.awt.Color(102, 102, 102));
         jButton7.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton7.setText("INT");
-        jButton7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton7.setBorder(new javax.swing.border.MatteBorder(null));
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -172,7 +172,7 @@ private BigInteger factorial(int value) {
         jButton8.setBackground(new java.awt.Color(255, 153, 0));
         jButton8.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton8.setText("-");
-        jButton8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton8.setBorder(new javax.swing.border.MatteBorder(null));
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -182,7 +182,7 @@ private BigInteger factorial(int value) {
         jButton9.setBackground(new java.awt.Color(255, 153, 0));
         jButton9.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton9.setText("X");
-        jButton9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton9.setBorder(new javax.swing.border.MatteBorder(null));
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -192,7 +192,7 @@ private BigInteger factorial(int value) {
         jButton10.setBackground(new java.awt.Color(255, 153, 0));
         jButton10.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton10.setText("÷");
-        jButton10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton10.setBorder(new javax.swing.border.MatteBorder(null));
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
@@ -202,7 +202,7 @@ private BigInteger factorial(int value) {
         jButton11.setBackground(new java.awt.Color(204, 204, 204));
         jButton11.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton11.setText("7");
-        jButton11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton11.setBorder(new javax.swing.border.MatteBorder(null));
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
@@ -212,7 +212,7 @@ private BigInteger factorial(int value) {
         jButton12.setBackground(new java.awt.Color(204, 204, 204));
         jButton12.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton12.setText("8");
-        jButton12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton12.setBorder(new javax.swing.border.MatteBorder(null));
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
@@ -222,7 +222,7 @@ private BigInteger factorial(int value) {
         jButton13.setBackground(new java.awt.Color(204, 204, 204));
         jButton13.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton13.setText("9");
-        jButton13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton13.setBorder(new javax.swing.border.MatteBorder(null));
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton13ActionPerformed(evt);
@@ -232,7 +232,7 @@ private BigInteger factorial(int value) {
         jButton14.setBackground(new java.awt.Color(204, 204, 204));
         jButton14.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton14.setText("4");
-        jButton14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton14.setBorder(new javax.swing.border.MatteBorder(null));
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
@@ -242,7 +242,7 @@ private BigInteger factorial(int value) {
         jButton15.setBackground(new java.awt.Color(204, 204, 204));
         jButton15.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton15.setText("5");
-        jButton15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton15.setBorder(new javax.swing.border.MatteBorder(null));
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton15ActionPerformed(evt);
@@ -252,7 +252,7 @@ private BigInteger factorial(int value) {
         jButton16.setBackground(new java.awt.Color(204, 204, 204));
         jButton16.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton16.setText("6");
-        jButton16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton16.setBorder(new javax.swing.border.MatteBorder(null));
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
@@ -262,7 +262,7 @@ private BigInteger factorial(int value) {
         jButton17.setBackground(new java.awt.Color(204, 204, 204));
         jButton17.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton17.setText("1");
-        jButton17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton17.setBorder(new javax.swing.border.MatteBorder(null));
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton17ActionPerformed(evt);
@@ -272,7 +272,7 @@ private BigInteger factorial(int value) {
         jButton18.setBackground(new java.awt.Color(204, 204, 204));
         jButton18.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton18.setText("2");
-        jButton18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton18.setBorder(new javax.swing.border.MatteBorder(null));
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -282,7 +282,7 @@ private BigInteger factorial(int value) {
         jButton20.setBackground(new java.awt.Color(204, 204, 204));
         jButton20.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton20.setText("0");
-        jButton20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton20.setBorder(new javax.swing.border.MatteBorder(null));
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
@@ -292,7 +292,7 @@ private BigInteger factorial(int value) {
         jButton21.setBackground(new java.awt.Color(204, 204, 204));
         jButton21.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton21.setText(".");
-        jButton21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton21.setBorder(new javax.swing.border.MatteBorder(null));
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton21ActionPerformed(evt);
@@ -302,7 +302,7 @@ private BigInteger factorial(int value) {
         jButton22.setBackground(new java.awt.Color(0, 153, 0));
         jButton22.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton22.setText("=");
-        jButton22.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton22.setBorder(new javax.swing.border.MatteBorder(null));
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton22ActionPerformed(evt);
@@ -312,12 +312,12 @@ private BigInteger factorial(int value) {
         jButton23.setBackground(new java.awt.Color(102, 102, 102));
         jButton23.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton23.setText("SET");
-        jButton23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton23.setBorder(new javax.swing.border.MatteBorder(null));
 
         jButton24.setBackground(new java.awt.Color(102, 102, 102));
         jButton24.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton24.setText("A");
-        jButton24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton24.setBorder(new javax.swing.border.MatteBorder(null));
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton24ActionPerformed(evt);
@@ -327,7 +327,7 @@ private BigInteger factorial(int value) {
         jButton25.setBackground(new java.awt.Color(102, 102, 102));
         jButton25.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton25.setText("B");
-        jButton25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton25.setBorder(new javax.swing.border.MatteBorder(null));
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton25ActionPerformed(evt);
@@ -337,7 +337,7 @@ private BigInteger factorial(int value) {
         jButton26.setBackground(new java.awt.Color(102, 102, 102));
         jButton26.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton26.setText("C");
-        jButton26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton26.setBorder(new javax.swing.border.MatteBorder(null));
         jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton26ActionPerformed(evt);
@@ -347,7 +347,7 @@ private BigInteger factorial(int value) {
         jButton27.setBackground(new java.awt.Color(102, 102, 102));
         jButton27.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton27.setText("D");
-        jButton27.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton27.setBorder(new javax.swing.border.MatteBorder(null));
         jButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton27ActionPerformed(evt);
@@ -358,7 +358,7 @@ private BigInteger factorial(int value) {
         jButton28.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton28.setText("xy");
         jButton28.setToolTipText("");
-        jButton28.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton28.setBorder(new javax.swing.border.MatteBorder(null));
         jButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton28ActionPerformed(evt);
@@ -368,7 +368,7 @@ private BigInteger factorial(int value) {
         jButton29.setBackground(new java.awt.Color(204, 204, 204));
         jButton29.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton29.setText("x+y");
-        jButton29.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton29.setBorder(new javax.swing.border.MatteBorder(null));
         jButton29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton29ActionPerformed(evt);
@@ -378,7 +378,7 @@ private BigInteger factorial(int value) {
         jButton30.setBackground(new java.awt.Color(204, 204, 204));
         jButton30.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/c.png"))); // NOI18N
-        jButton30.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton30.setBorder(new javax.swing.border.MatteBorder(null));
         jButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton30ActionPerformed(evt);
@@ -388,7 +388,7 @@ private BigInteger factorial(int value) {
         jButton31.setBackground(new java.awt.Color(204, 204, 204));
         jButton31.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xsumc.png"))); // NOI18N
-        jButton31.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton31.setBorder(new javax.swing.border.MatteBorder(null));
         jButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton31ActionPerformed(evt);
@@ -398,7 +398,7 @@ private BigInteger factorial(int value) {
         jButton32.setBackground(new java.awt.Color(204, 204, 204));
         jButton32.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xc.png"))); // NOI18N
-        jButton32.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton32.setBorder(new javax.swing.border.MatteBorder(null));
         jButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton32ActionPerformed(evt);
@@ -408,7 +408,7 @@ private BigInteger factorial(int value) {
         jButton33.setBackground(new java.awt.Color(204, 204, 204));
         jButton33.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton33.setText("EXIT");
-        jButton33.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton33.setBorder(new javax.swing.border.MatteBorder(null));
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton33ActionPerformed(evt);
@@ -418,7 +418,7 @@ private BigInteger factorial(int value) {
         jButton34.setBackground(new java.awt.Color(204, 204, 204));
         jButton34.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 0, 18)); // NOI18N
         jButton34.setText("a! + b!");
-        jButton34.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton34.setBorder(new javax.swing.border.MatteBorder(null));
         jButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton34ActionPerformed(evt);
@@ -428,7 +428,7 @@ private BigInteger factorial(int value) {
         jButton35.setBackground(new java.awt.Color(204, 204, 204));
         jButton35.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/adivb.png"))); // NOI18N
-        jButton35.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton35.setBorder(new javax.swing.border.MatteBorder(null));
         jButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton35ActionPerformed(evt);
@@ -438,7 +438,7 @@ private BigInteger factorial(int value) {
         jButton36.setBackground(new java.awt.Color(204, 204, 204));
         jButton36.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/log2x.png"))); // NOI18N
-        jButton36.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton36.setBorder(new javax.swing.border.MatteBorder(null));
         jButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton36ActionPerformed(evt);
@@ -448,7 +448,7 @@ private BigInteger factorial(int value) {
         jButton37.setBackground(new java.awt.Color(204, 204, 204));
         jButton37.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/logx.png"))); // NOI18N
-        jButton37.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton37.setBorder(new javax.swing.border.MatteBorder(null));
         jButton37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton37ActionPerformed(evt);
@@ -458,7 +458,7 @@ private BigInteger factorial(int value) {
         jButton38.setBackground(new java.awt.Color(204, 204, 204));
         jButton38.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/dualsummation.png"))); // NOI18N
-        jButton38.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton38.setBorder(new javax.swing.border.MatteBorder(null));
         jButton38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton38ActionPerformed(evt);
@@ -468,7 +468,7 @@ private BigInteger factorial(int value) {
         jButton39.setBackground(new java.awt.Color(204, 204, 204));
         jButton39.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/dualpi.png"))); // NOI18N
-        jButton39.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton39.setBorder(new javax.swing.border.MatteBorder(null));
         jButton39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton39ActionPerformed(evt);
@@ -478,7 +478,7 @@ private BigInteger factorial(int value) {
         jButton40.setBackground(new java.awt.Color(102, 102, 102));
         jButton40.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton40.setText("//");
-        jButton40.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton40.setBorder(new javax.swing.border.MatteBorder(null));
         jButton40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton40ActionPerformed(evt);
@@ -488,7 +488,7 @@ private BigInteger factorial(int value) {
         jButton41.setBackground(new java.awt.Color(102, 102, 102));
         jButton41.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton41.setText("%");
-        jButton41.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton41.setBorder(new javax.swing.border.MatteBorder(null));
         jButton41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton41ActionPerformed(evt);
@@ -498,7 +498,7 @@ private BigInteger factorial(int value) {
         jButton42.setBackground(new java.awt.Color(102, 102, 102));
         jButton42.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton42.setText("N!");
-        jButton42.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton42.setBorder(new javax.swing.border.MatteBorder(null));
         jButton42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton42ActionPerformed(evt);
@@ -508,7 +508,7 @@ private BigInteger factorial(int value) {
         jButton43.setBackground(new java.awt.Color(204, 204, 204));
         jButton43.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton43.setText("3");
-        jButton43.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton43.setBorder(new javax.swing.border.MatteBorder(null));
         jButton43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton43ActionPerformed(evt);
@@ -518,7 +518,7 @@ private BigInteger factorial(int value) {
         jButton45.setBackground(new java.awt.Color(204, 204, 204));
         jButton45.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/summation.png"))); // NOI18N
-        jButton45.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton45.setBorder(new javax.swing.border.MatteBorder(null));
         jButton45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton45ActionPerformed(evt);
@@ -528,12 +528,12 @@ private BigInteger factorial(int value) {
         jButton46.setBackground(new java.awt.Color(204, 204, 204));
         jButton46.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/Pi.png"))); // NOI18N
-        jButton46.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton46.setBorder(new javax.swing.border.MatteBorder(null));
 
         jButton47.setBackground(new java.awt.Color(204, 204, 204));
         jButton47.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xyz.png"))); // NOI18N
-        jButton47.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton47.setBorder(new javax.swing.border.MatteBorder(null));
         jButton47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton47ActionPerformed(evt);
@@ -543,7 +543,7 @@ private BigInteger factorial(int value) {
         jButton48.setBackground(new java.awt.Color(204, 204, 204));
         jButton48.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/xy.png"))); // NOI18N
-        jButton48.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton48.setBorder(new javax.swing.border.MatteBorder(null));
         jButton48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton48ActionPerformed(evt);
@@ -553,7 +553,7 @@ private BigInteger factorial(int value) {
         jButton49.setBackground(new java.awt.Color(204, 204, 204));
         jButton49.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/cuberoot (1).png"))); // NOI18N
-        jButton49.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton49.setBorder(new javax.swing.border.MatteBorder(null));
         jButton49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton49ActionPerformed(evt);
@@ -563,7 +563,7 @@ private BigInteger factorial(int value) {
         jButton50.setBackground(new java.awt.Color(204, 204, 204));
         jButton50.setFont(new java.awt.Font("Sequel Sans Heavy Disp", 1, 14)); // NOI18N
         jButton50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advancedcalcu/equationimages/squareroot.png"))); // NOI18N
-        jButton50.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton50.setBorder(new javax.swing.border.MatteBorder(null));
         jButton50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton50ActionPerformed(evt);
@@ -850,7 +850,7 @@ private BigInteger factorial(int value) {
     }//GEN-LAST:event_jButton32ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
-        // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
